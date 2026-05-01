@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./styles/register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/logo-videobelajar.png" alt="logo-videobelajar">
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main class="register-card">
+            <div class="register-title">
+                <h1>Pendaftaran Akun</h1>
+                <p>Yuk, daftarkan akunmu sekarang juga!</p>
+            </div>
+            <form action="#" method="post">
+                <div class="form-field">
+                    <label for="fullname">Nama Lengkap</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="gender">Jenis Kelamin</label>
+                    <select name="gender" id="gender">
+                        <option value=" ">Pilih Jenis Kelamin</option>
+                        <option value="#laki-laki">Laki - Laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="handphone">No. HP</label>
+                    <div class="handphone-field">
+                        <select name="country-code" id="country-code">
+                            <option value="id">+62</option>
+                        </select>
+                        <input type="tel" id="handphone" name="handphone" required>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="password">Kata Sandi</label>
+                    <input type="password" id="password" name="password" required>
+                    <img src="./images/eye-off-icon.png" alt="eye-off-icon">
+                </div>
+                <div class="form-field">
+                    <label for="confirm-password">Konfirmasi Kata Sandi</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <img src="./images/eye-off-icon.png" alt="eye-off-icon">
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="register-btn">Daftar</button>
+                    <a href="./login.html" class="login-btn">Masuk</a>
+                    <p>atau</p>
+                    <button type="button" class="google-btn"><img src="./images/google-icon.png" alt="google-icon">Daftar dengan Google</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
