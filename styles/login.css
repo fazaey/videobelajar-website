@@ -125,6 +125,7 @@ nav img {
     letter-spacing: 0.2%;
     color: #333333AD;
     width: fit-content;
+    text-decoration: none;
 }
 
 .form-forgot-password a:hover {
